@@ -1,4 +1,4 @@
-/* styles for body, container,
+`/* styles for body, container,
 and styles that are applied to multiple elements */
 
 /* allowing the body to take up the full width and height  */
@@ -9,13 +9,13 @@ body, html {
 
 body {
 	font-family: Arial, sans-serif; /* changes the font */
-	background-image: url('http://cdn-static.denofgeek.com/sites/denofgeek/files/4/23//reverse-flash.jpg'); /* adds a bg image */
+	background-image: url('http://vignette2.wikia.nocookie.net/injusticegodsamongus/images/6/6c/The_Flash.jpg/revision/latest?cb=20130121055203'); /* adds a bg image */
 	background-position: center center; /* centers the bg image */
 	background-repeat: no-repeat; /* makes sure the bg doesn't repeat */
 	background-attachment: fixed; /* makes the bg not move */
-	background-size: cover; /* lets the bg fill the entire body */
+	background-size: 1099px; /* lets the bg fill the entire body */
 	background-color: #000080; /* backup color if the img doesn't work/while it's loading */
-	margin: 0; /* removes all margins from the body */
+	margin: 0 auto; /* removes all margins from the body */
 	display: table; /* allows the .container to be centered */
 	
 }
@@ -23,7 +23,7 @@ body {
 .container {
 	display: table-cell; /* allows the next 2 style rules to work */
 	text-align: center; /* centers the text */
-	vertical-align: middle; /* aligns .container in the middle of the page */
+	vertical-align: middle;/* aligns .container in the middle of the page */
 	color: #e46;
 	text-align: right;
 
